@@ -44,7 +44,7 @@ ChatGPTや各種サービスは音声操作に対応しており、体の不自�
 ![screenshot](3_one_click_launcher/images/screenshot_1.png)
 
 プライベート用モード:  
-![screenshot](3_one_click_launcher/images/screenshot.png)
+![screenshot](3_one_click_launcher/images/screenshot_2.png)
 
 ---
 
@@ -54,9 +54,9 @@ ChatGPTや各種サービスは音声操作に対応しており、体の不自�
 
 対象分野: データ可視化  
 使用ライブラリ: `pandas`, `matplotlib`  
-フォルダ: `4_vision_support_chart/`  
+フォルダ: `4_vision_support_graph/`  
 
-![screenshot](4_vision_support_chart/images/screenshot.png)
+![screenshot](4_vision_support_graph/images/screenshot.png)
 
 ---
 
