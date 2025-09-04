@@ -78,13 +78,13 @@ ChatGPTや各種サービスは音声操作に対応しており、体の不自�
 
 対象分野: Webアプリ  
 使用ライブラリ: `flask`  
-フォルダ: `6_big_text_app/`  
+フォルダ: `6_big_text/`  
 
 入力画面:  
-![screenshot](6_big_text_app/images/screenshot_1.png)
+![screenshot](6_big_text/images/screenshot_1.png)
 
 通常モード / 高コントラストモード:  
-![screenshot](6_big_text_app/images/screenshot_2.png)
+![screenshot](6_big_text/images/screenshot_2.png)
 
 ---
 
