@@ -4,6 +4,9 @@
 マウス周辺の画面を拡大表示するシンプルなルーペアプリ。  
 視覚支援やプレゼン時の画面強調に利用できる。
 
+## デモ動画
+[![デモ動画を見る](https://img.youtube.com/vi/7SNJuBvXsqE/0.jpg)](https://www.youtube.com/watch?v=7SNJuBvXsqE)
+
 - 実行環境: Python 3.x（macOS / Windows）
 - 依存: `tkinter`, `pillow`（画像処理ライブラリ）
 
