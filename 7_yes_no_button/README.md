@@ -1,13 +1,28 @@
 # Yes/No ボタン
 
 ## 概要
-大きな **YES / NO** ボタンで意思表示を支援するシンプルなデスクトップアプリ（Tkinter）。  
-押した内容を画面中央に表示し、効果音（任意）や全画面オーバーレイで周囲に分かりやすく伝えられる。  
-キーボード操作（Enter=YES / Esc=NO）にも対応。
 
-- 実行環境: Python 3.x（macOS / Windows）
-- 依存ライブラリ: なし（任意で `playsound` を使用して mp3 再生）
+このアプリは、Python（Tkinter）で作成した Yes/No 選択ツール です。
+ボタンまたはキーボード操作で「YES」または「NO」を選ぶと、効果音と共に画面に大きく表示され、直感的に意思決定をサポートします。
 
+主な機能
+ 1. YES/NO ボタン：クリックで選択
+ 2. Enter / Escape キー操作：キーボードからも操作可能（Enter＝YES、Escape＝NO）
+ 3. 効果音再生：選択に応じた音声を再生（macOS の afplay または playsound）
+ 4. フルスクリーン表示：選択結果を画面中央に大きく表示
+
+動作イメージ
+ 1. アプリを起動すると「YES」「NO」のボタンが表示されます。
+ 2. ボタンをクリック、または Enter / Escape キーを押して選択できます。
+ 3. 効果音と共に「YES」または「NO」が画面中央に大きく表示されます。
+
+## デモ動画
+[![デモ動画を見る](https://img.youtube.com/vi/ErMKyJ3y_jM/0.jpg)](https://www.youtube.com/watch?v=ErMKyJ3y_jM)
+
+## スクリーンショット
+> `images/screenshot.png`  
+![screenshot](images/screenshot_1.png)
+![screenshot](images/screenshot_2.png)
 
 ## セットアップ
 任意: 効果音を使う場合だけ `playsound` を入れる。
@@ -24,33 +39,9 @@ pip install playsound   # 任意
 python yes_no_button.py
 ```
 
-
-## 操作
-- マウス: 「YES」「NO」ボタンをクリック
-- キーボード: `Enter` → YES、`Esc` → NO
-
-
-## 調整できる設定
-- `FULLSCREEN_FLASH`（既定: `True`）  
-  クリック時に全画面オーバーレイ（黒背景＋大文字）を出すかどうか。無効にする場合は `False`。
-
-- オーバーレイの表示時間  
-  `ov.after(5000, ov.destroy)` の数値（ミリ秒）を変更（例: 3000 なら 3 秒）。
-
-- 効果音の扱い  
-  `playsound` が使えれば mp3 を再生。使えない / mp3 が無い場合はシステムのビープ (`root.bell()`) に自動フォールバック。  
-  macOS では `afplay` コマンドが使える環境なら自動的にそちらも試行。
-
-
 ## 注意事項
 - `afplay` は macOS 専用。Windows では `playsound` が無い場合、ビープ音のみ。
 - mp3 パスは `yes_no_button.py` と同じディレクトリに `yes.mp3` / `no.mp3` を配置する前提。
-
-
-## スクリーンショット
-> `images/screenshot.png`  
-![screenshot](images/screenshot_1.png)
-![screenshot](images/screenshot_2.png)
 
 
 ## ファイル構成
