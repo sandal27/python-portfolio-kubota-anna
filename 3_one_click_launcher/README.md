@@ -34,6 +34,12 @@
  2. 「仕事用」を押せば仕事に必要なアプリ・Webサービスがまとめて開きます。
  3. 「プライベート」を押せばSNSや動画サービス、音楽配信などが起動します。
 
+
+対象：複雑な操作が難しい体の不自由な人に便利。
+対象分野: GUIアプリ
+使用ライブラリ: tkinter, subprocess, platform, webbrowser
+
+
 ## デモ動画
 [![デモ動画を見る](https://img.youtube.com/vi/lUqwyf3ikow/0.jpg)](https://www.youtube.com/watch?v=lUqwyf3ikow)
 
