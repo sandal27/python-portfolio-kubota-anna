@@ -1,5 +1,8 @@
 # SOSベル（CLI版）
 
+## デモ動画
+[![デモ動画を見る](https://img.youtube.com/vi/FdvcAs6GrUc/0.jpg)](https://www.youtube.com/watch?v=FdvcAs6GrUc)
+
 ##  概要
 ターミナル（CLI）で **SOS 緊急サイン** を赤背景・白文字で点滅表示する、超シンプルなユーティリティ。
 開発者やデモ用に「赤点滅でSOSを伝える仕組み」を 視覚的に体験してもらうためのサンプル。
