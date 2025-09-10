@@ -15,13 +15,9 @@
  2. 赤背景の「SOS!!」と空白が交互に点滅
  3. 設定回数の点滅が終わると「=== 終了 ===」で終了
 
----
 対象: 聴覚に頼らずに緊急を視覚で伝えるニーズ
----
 対象分野: CLIアプリ
----
 使用ライブラリ: colorama
----
 
 ## デモ動画
 [![デモ動画を見る](https://img.youtube.com/vi/FdvcAs6GrUc/0.jpg)](https://www.youtube.com/watch?v=FdvcAs6GrUc)
