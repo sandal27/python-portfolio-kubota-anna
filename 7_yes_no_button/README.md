@@ -16,6 +16,10 @@
  2. ボタンをクリック、または Enter / Escape キーを押して選択できます。
  3. 効果音と共に「YES」または「NO」が画面中央に大きく表示されます。
 
+対象: 手の操作が制限されている人、シンプルな入力が必要な場面  
+対象分野: GUIアプリ + 音声処理  
+使用ライブラリ: tkinter, playsound, pathlib, subprocess
+
 ## デモ動画
 [![デモ動画を見る](https://img.youtube.com/vi/ErMKyJ3y_jM/0.jpg)](https://www.youtube.com/watch?v=ErMKyJ3y_jM)
 
