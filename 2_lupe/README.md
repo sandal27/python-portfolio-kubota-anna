@@ -17,6 +17,10 @@
  2. マウスカーソルの周囲がリアルタイムに拡大されて映し出されます。
  3. ESCキーを押すとアプリが終了します。
 
+対象: 視覚に困難がある人  
+対象分野: GUIアプリ  
+使用ライブラリ: tkinter, PIL/Pillow
+
 ## デモ動画
 [![デモ動画を見る](https://img.youtube.com/vi/7SNJuBvXsqE/0.jpg)](https://www.youtube.com/watch?v=7SNJuBvXsqE)
 
