@@ -16,6 +16,11 @@
  2. 指定時間になると、ウィンドウが表示され「お薬の時間です」とお知らせします。
  3. ボタンを押すと通知が閉じ、次のリマインダーに備えます
 
+
+対象: 高齢者、薬を定期的に服用する高齢者や ADHD の方、介助者  
+対象分野: GUIアプリ  
+使用ライブラリ: tkinter
+
 ## デモ動画
 [![デモ動画を見る](https://img.youtube.com/vi/3CMfuVnON0c/0.jpg)](https://www.youtube.com/watch?v=3CMfuVnON0c)
 
